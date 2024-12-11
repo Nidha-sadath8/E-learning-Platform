@@ -1,0 +1,15 @@
+public class course
+{
+String courseName;
+String courseDescription;
+
+public Course(String cn, String cd) {
+        cn = courseName;
+        cd = courseDescription;
+}
+
+ public void displayCourseInfo() {
+        System.out.println("Course Name: " + courseName);
+        System.out.println("Course Description: " + courseDescription);
+ }
+}
