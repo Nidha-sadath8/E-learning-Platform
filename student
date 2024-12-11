@@ -1,0 +1,23 @@
+public class student{
+public static void main(String args[]){
+  String name;
+  String email;
+
+  public Student(String n, String e) {
+        n = name;
+        e = email;
+    }
+
+     public String getName() {
+        return name;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+     public void displayStudentInfo() {
+        System.out.println("Student Name: " + name);
+        System.out.println("Student Email: " + email);
+}
+}
