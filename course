@@ -2,14 +2,21 @@ public class course
 {
 String courseName;
 String courseDescription;
+String courseDuration;
+int courseFees;
 
-public Course(String cn, String cd) {
+public Course(String cn, String cd, String cdu, int cf) {
         cn = courseName;
         cd = courseDescription;
+        cdu = courseDuration;
+        cf=courseFees;
 }
 
  public void displayCourseInfo() {
         System.out.println("Course Name: " + courseName);
         System.out.println("Course Description: " + courseDescription);
+        System.out.println("Course Duration: " + courseDuration);
+        System.out.println("Course Fees: " + courseFees);
+        
  }
 }
